@@ -20,6 +20,7 @@ const SignupForm = () => {
   };
 
   const handleFormSubmit = async (event) => {
+    console.log(userFormData);
     event.preventDefault();
 
     // check if form has everything (as per react-bootstrap docs)
